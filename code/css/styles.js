@@ -1,1 +1,0 @@
-/* just created a css file to structure the code*/

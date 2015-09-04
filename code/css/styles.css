@@ -1,0 +1,23 @@
+#referenceDiv {
+	background-color: #bbbbff;	
+}
+.danger{
+	color: red;
+}
+.blank{
+	color: white;
+	font-size: 80px;
+}
+.pageH1{
+	background-color: red;
+	margin: 0px ;
+}
+.icon{
+	width: 10em;
+	margin: 0em 0px 0px 0px; 
+}
+.lefty{
+	position: left;
+    top: 0px;
+    right: 0px;
+}

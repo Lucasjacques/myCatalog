@@ -1,4 +1,10 @@
-// just created a js file to structure the code
+// Tags are used in this code to represent the start of different levels of abstraction in the code 
+// (two Tag-comments with the same number means that they are in the same abstraction level. 
+// Abstraction rule: lowest TAG-number -> highest abstraction
+
+//----------------------------------------------------------------------------------------------------
+// TAG1 - JSON Section
+
 var x = [{
    "data":{
       "widget":{
@@ -8,9 +14,9 @@ var x = [{
          "timestamp":"14/12/2012",
          "item":{
             "businessId":"1768629",
-            "name":"Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo",
+            "name":"Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte a Modem 3G, Slot para CartÃ£o e Android 4.0 - Chumbo",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Smart-DL-HD7-Kids-K71-com-4GB-Wi-Fi-Tela-7-Camera-2MP-Cabo-USB-Suporte-a-Modem-3G-Slot-para-Cartao-e-Android-4-0-â€“-Chumbo-1768629.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Smart-DL-HD7-Kids-K71-com-4GB-Wi-Fi-Tela-7-Camera-2MP-Cabo-USB-Suporte-a-Modem-3G-Slot-para-Cartao-e-Android-4-0-â€-Chumbo-1768629.html",
             "price":"R$ 499,00",
             "oldPrice":"R$ 599,00",
             "productInfo":{
@@ -32,9 +38,9 @@ var x = [{
          },
          {
             "businessId":"1768491",
-            "name":"Tablet DL Everest EV-T71 PRE com Tela 7â€, 4GB, CÃ¢mera 2MP, Wi-Fi, Suporte Ã  Modem 3G e Android 4.0",
+            "name":"Tablet DL Everest EV-T71 PRE com Tela 7\", 4GB, CÃ¢mera 2MP, Wi-Fi, Suporte a Modem 3G e Android 4.0",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6829307",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-DL-Everest-EV-T71-PRE-com-Tela-7â€-4GB-Camera-2MP-Wi-Fi-Suporte-a-Modem-3G-e-Android-4-0-1768491.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-DL-Everest-EV-T71-PRE-com-Tela-7-4GB-Camera-2MP-Wi-Fi-Suporte-a-Modem-3G-e-Android-4-0-1768491.html",
             "price":"R$ 499,00",
             "oldPrice":null,
             "productInfo":{
@@ -54,9 +60,9 @@ var x = [{
          },
          {
             "businessId":"1826580",
-            "name":"Tablet Phaser Kinno PC709 VE Plus com Tela 7â€ Multitouch, 4GB, Wi-Fi, Suporte Ã  Modem 3G e Android 2.3",
+            "name":"Tablet Phaser Kinno PC709 VE Plus com Tela 7\" Multitouch, 4GB, Wi-Fi, Suporte a Modem 3G e Android 2.3",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6875461",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Phaser-Kinno-PC709-VE-Plus-com-Tela-7â€-Multitouch-4GB-Wi-Fi-Suporte-a-Modem-3G-e-Android-2-3-1826580.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Phaser-Kinno-PC709-VE-Plus-com-Tela-7-Multitouch-4GB-Wi-Fi-Suporte-a-Modem-3G-e-Android-2-3-1826580.html",
             "price":"R$ 379,00",
             "oldPrice":"R$ 499,00",
             "productInfo":{
@@ -65,9 +71,9 @@ var x = [{
          },
          {
             "businessId":"1765938",
-            "name":"Tablet Multilaser Vibe NB027 com Tela 7\" com 8GB, Slot para CartÃ£o, Wi-Fi e Android 4.0 â€“ Rosa",
+            "name":"Tablet Multilaser Vibe NB027 com Tela 7\" com 8GB, Slot para CartÃ£o, Wi-Fi e Android 4.0  Rosa",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6584703",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Multilaser-Vibe-NB027-com-Tela-7-com-8GB-Slot-para-Cartao-Wi-Fi-e-Android-4-0-â€“-Rosa-1765938.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Multilaser-Vibe-NB027-com-Tela-7-com-8GB-Slot-para-Cartao-Wi-Fi-e-Android-4-0-â€-Rosa-1765938.html",
             "price":"R$ 399,00",
             "oldPrice":"R$ 599,00",
             "productInfo":{
@@ -87,9 +93,9 @@ var x = [{
          },
          {
             "businessId":"1768488",
-            "name":"Tablet DL Mobile  TG-M71 com Tela 7\", 3G, Wi-Fi, CÃ¢mera 2MP, SaÃ­da Mini HDMI, Bluetooth, Suporte Ã  Modem 3G e Android 4.0 â€“ Branco",
+            "name":"Tablet DL Mobile  TG-M71 com Tela 7\", 3G, Wi-Fi, CÃ¢mera 2MP, SaÃ­da Mini HDMI, Bluetooth, Suporte a Modem 3G e Android 4.0 - Branco",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6829158",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-DL-Mobile-TG-M71-com-Tela-7-3G-Wi-Fi-Camera-2MP-Saida-Mini-HDMI-Bluetooth-Suporte-a-Modem-3G-e-Android-4-0-â€“-Branco-1768488.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-DL-Mobile-TG-M71-com-Tela-7-3G-Wi-Fi-Camera-2MP-Saida-Mini-HDMI-Bluetooth-Suporte-a-Modem-3G-e-Android-4-0-â€-Branco-1768488.html",
             "price":"R$ 749,00",
             "oldPrice":null,
             "productInfo":{
@@ -98,9 +104,9 @@ var x = [{
          },
          {
             "businessId":"1767783",
-            "name":"Tablet Phaser Kinno PC-719VE com Tela 7â€, Wi-Fi, Suporte Ã  Modem 3G e Android 2.2",
+            "name":"Tablet Phaser Kinno PC-719VE com Tela 7\", Wi-Fi, Suporte a Modem 3G e Android 2.2",
             "imageName":"//imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6747399",
-            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Phaser-Kinno-PC-719VE-com-Tela-7â€-Wi-Fi-Suporte-a-Modem-3G-e-Android-2-2-1767783.html",
+            "detailUrl":"//www.pontofrio.com.br/tablets/Tablet/TabletAndroid/Tablet-Phaser-Kinno-PC-719VE-com-Tela-7-Wi-Fi-Suporte-a-Modem-3G-e-Android-2-2-1767783.html",
             "price":"R$ 329,00",
             "oldPrice":"R$ 399,00",
             "productInfo":{
@@ -133,29 +139,59 @@ var x = [{
    }
 }];
 
+//----------------------------------------------------------------------------------------------------
+// TAG1 - Code section
 
-var recommendations = x[0].data.recommendation;
-var mainDiv = document.getElementById('main');
-for (var i = 0; i < recommendations.length ; i++) {
-	console.log(recommendations[i]);
+   var referenceProd = x[0].data.reference.item;
+   var recommendations = x[0].data.recommendation;
 
- 	var tmpDiv = document.createElement('div');
- 	tmpDiv.id = 'productDiv' + i;
+   var showCaseDiv = document.getElementById('showCase');
+   var referenceDiv = document.createElement('div');
 
- 	var tmpImg = document.createElement('img');
- 	
- 	tmpImg.src = 'http:' + recommendations[i].imageName;
+   var refLink = document.createElement('a');
+   var refName = document.createElement('p');
+   var refH4 = document.getElementById('refH4');
 
+   refH4.innerHTML = 'por você ter gostado do(a) ' + encode_utf8(referenceProd.name.split(' com')[0]) 
+   + ', também pode gostar de:'; 
 
- 	tmpDiv.appendChild(tmpImg);
- 	mainDiv.appendChild(tmpDiv);
-};
+   //iterating with each product recommended
+   for (var i = 0; i < recommendations.length ; i++) {
 
+      var tmpDiv = document.createElement('div');
+      var tmpName = document.createElement('p');
+      var tmpImg = document.createElement('img');
+      var tmpLink = document.createElement('a');
+      var tmpPrice = document.createElement('h6');
+      var tmpButton = document.createElement('a');
 
-// mainDiv.innerHTML = JSON.stringify(x[0].data.recommendation);	
-// for (var i = x.length - 1; i >= 0; i--) {
-// 	x[i]
-// };
+      tmpDiv.id = 'productDiv' + i;
+      tmpDiv.class = 'col-md-3 referenceDiv';
+      tmpName.innerHTML = encode_utf8(recommendations[i].name); 
+      tmpImg.src = 'http:' + recommendations[i].imageName;
+      tmpLink.href = 'http:' + recommendations[i].detailUrl;
+      tmpLink.target = '_blank';
+      tmpButton.innerHTML = 'Comprar';
+      tmpButton.class = 'btn btn-default';
+      tmpButton.href = 'http:' + recommendations[i].detailUrl;
+      tmpButton.target = '_blank';
+      if(recommendations[i].oldPrice !== null){
+         tmpPrice.innerHTML = 'de: <strike>' + recommendations[i].oldPrice + '</strike>' + ' para: <span class="danger">' + recommendations[i].price
+            + '</span> ' + recommendations[i].productInfo.paymentConditions;
+      }
+      else{
+         tmpPrice.innerHTML = 'a partir de: <span class="danger">' + recommendations[i].price
+            + '</span> ' + recommendations[i].productInfo.paymentConditions;
+      }
 
-// 	foreach element in json
-//		imprimir imagem, nome, preço, product info, 
+      tmpLink.appendChild(tmpImg);
+      tmpDiv.appendChild(tmpLink);
+      tmpDiv.appendChild(tmpName);
+      tmpDiv.appendChild(tmpPrice);
+      tmpDiv.appendChild(tmpButton);
+      showCaseDiv.appendChild(tmpDiv);
+   };
+
+   function encode_utf8(s) {
+     return decodeURIComponent(escape(s));
+   }
